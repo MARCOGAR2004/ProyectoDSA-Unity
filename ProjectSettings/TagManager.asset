@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Enemy
+  - Moneda
+  - Coin
+  - Chest
+  - Gun
+  - Bullet
+  - Dead
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - BlockingLayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 4190043427
+    locked: 0
+  - name: Item
+    uniqueID: 1986566679
+    locked: 0
+  - name: Units
+    uniqueID: 3467326989
+    locked: 0
+  - name: PlayerLayer
+    uniqueID: 3788632361
+    locked: 0
+  - name: 
+    uniqueID: 2551072655
+    locked: 0
+  m_RenderingLayers:
+  - Default

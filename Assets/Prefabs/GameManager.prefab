@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5280882714036568309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7740439597230218943}
+  - component: {fileID: 1457773268884817482}
+  - component: {fileID: 5272198533074485405}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7740439597230218943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5280882714036568309}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5, y: 3.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1457773268884817482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5280882714036568309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 134611dbf320be14daaf1bb122a682c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columns: 50
+  rows: 50
+  floorTiles:
+  - {fileID: 1256305671235283344, guid: d9b767f187f1fad40a867e5e68d5ead4, type: 3}
+  - {fileID: 4135372303143716107, guid: 9a6787b7defe43f49ab864f83d15b8bb, type: 3}
+  - {fileID: 605194982407650053, guid: 28dd43a3d9a6a8044bcbec1ffb6f073f, type: 3}
+  - {fileID: 337509295659664462, guid: 936efcb03ec44f34d86d45f22d604fe8, type: 3}
+  - {fileID: 8450030306293109635, guid: e42869e6a6c197f4ca2bc0b780fc022b, type: 3}
+  - {fileID: 4646423627506399350, guid: 227239e46938a724f9fac6cff461ae61, type: 3}
+  outerWallTiles:
+  - {fileID: 5226357333491505522, guid: 5cd8a25ff21f47d40a7fec8fa0b8cacd, type: 3}
+  enemyTiles:
+  - {fileID: 8490593633100776857, guid: 051131bd262cda3409ae5a8a8122426b, type: 3}
+  monedaTiles:
+  - {fileID: 2229104246769694963, guid: 9725457b1222cad4e92741d84018384c, type: 3}
+  chestTiles:
+  - {fileID: 4081145442151188897, guid: fbb86c7fd91ad964bb08f4112a938172, type: 3}
+--- !u!114 &5272198533074485405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5280882714036568309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a6b31d780c8f349b5bac125219d70f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardScript: {fileID: 1457773268884817482}
+  introCanvas: {fileID: 7736868318549244301, guid: accdb9074b4a94241996625dbcc9b30f, type: 3}
+  coinsCanvas: {fileID: 274576857820013318, guid: 3f8522019d171074898d654488b28177, type: 3}
+  livesCanvas: {fileID: 703227223803101492, guid: 16892baa0af8efd4aa52856dc2889ab5, type: 3}
+  pointsCanvas: {fileID: 7119431136625572626, guid: 7448202affaf7ed4c9301b7801f448df, type: 3}
